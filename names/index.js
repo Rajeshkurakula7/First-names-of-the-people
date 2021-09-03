@@ -5,5 +5,4 @@ const getPeopleInCity = (peopleNames) => {
   return getFirstNames(peopleNames);
 };
 
-const result = (module.exports = getPeopleInCity);
-console.log(result);
+module.exports = getPeopleInCity;
